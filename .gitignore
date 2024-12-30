@@ -2,6 +2,8 @@
 *.rbc
 .idea
 *input.txt
+.env
+part_*.md
 /.config
 /coverage/
 /InstalledFiles
