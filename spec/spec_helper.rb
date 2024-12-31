@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "rspec"
+
 Dir[File.join(File.dirname(__FILE__), "..", "challenges", "shared", "**", "*.rb")].each do |file|
   require file
 end
